@@ -28,22 +28,42 @@ const questions = [{
         message: "What is the usage information of your project?"
     },
     {
-        //this will get the contributors to the project
+        //this will prompt the user hpt to contribuite to the project
         type: "input",
         name: "contributors",
-        message: "Who or what, contribuited to your project?"
+        message: "How one can make contributions to your project?"
     },
     {
         //this will get test instruction form the user
         type: "input",
         name: "tests",
-        message: "What are the tesing instructions?"
+        message: "What are the tesing instructions for your project?"
+    },
+    {
+        //this will list a choise of licenses user can choose from
+        type: "list",
+        name: "license",
+        massage: "What type of license for your project?",
+        choices: ["MIT", "Apache", "Boost", "IBM"]
+    },
+
+    {
+        // this will ask the user github username
+        type: 'input',
+        name: 'name',
+        message: 'What is your Github username?',
+    },
+    {
+        //this will ask the user email address
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?',
     },
 ];
 
 // function to write README file
-function writeToFile(fileName, answers) {
-    fs.writeFile(fileName, answers, (err) => {
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
         if (err) throw err;
     });
 }
