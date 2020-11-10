@@ -1,10 +1,9 @@
-const { fetchAsyncQuestionPropertyQuestionProperty } = require("inquirer/lib/utils/utils");
-
 // function to generate markdown for README
 function generateMarkdown(data) {
     return `# ${data.title}
 ---
-![project-video]()
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of contents
 
@@ -37,7 +36,7 @@ function generateMarkdown(data) {
 ## Questions
 For addtional questions contact me at:
 <${data.email}>
-[My Repository](http://github.com/${data.name})
+or [my repository](http://github.com/${data.name})
 `;
 }
 

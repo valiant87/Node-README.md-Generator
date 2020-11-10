@@ -1,3 +1,4 @@
+// require() file system module
 const fs = require("fs")
 const generateMarkdown = require("./utils/generateMarkdown")
 const inquirer = require("inquirer")
@@ -61,18 +62,20 @@ const questions = [{
     },
 ];
 
-// function to write README file
+// function to write README file (keep data)
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err) throw err;
     });
+    //this is console log "success" message if the operation complete
+    console.log("Success!")
 }
 
 // function to initialize program
 function init() {
     inquirer
         .prompt(questions).then(function(response) {
-            writeToFile("README.md", generateMarkdown(response));
+            writeToFile("README.md", generateMarkdown(response)); //this module will transfer  user input to the linked page responses
         })
 
 

@@ -1,36 +1,62 @@
-# Node readme generator
+# Node README GENERATOR
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ---
-![project-video]()
+
+[👉 Youtube Project Video 🎬](https://youtu.be/aRQq5VjOHtE)
 
 ## Table of contents
 
-* [About the project](#About-the-project)
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [Contributors](#Contributors)
-* [Tests](#Tests)
-* [License](#License)
-* [Questions](#Questions)
-    
+- [About the project](#About-the-project)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contributors](#Contributors)
+- [Tests](#Tests)
+- [License](#License)
+- [Questions](#Questions)
+
 ## About the project
-    Command line readme generator 
-   
+
+    This is a professional README, command line generated application, using node.js packages
+
 ## Installation
-    npm i package
+
+    Download and insatall "npm i"
 
 ## Usage
-    Generate a professional readme.md    
+
+    One can use this application for a quick and professional README.md for any of your projects
 
 ## Contributors
-    test    
+
+    One can create issues do a pull request as needed
 
 ## Tests
-    node test    
-    
+
+    node test
+
 ## License
-    MIT
+
+This is licensed under MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Credits
+
+- Youtube
+  - Free video sharring
+- [Node](https://node.readthedocs.io/en/latest/api/fs/)
+  - Node packages
+- [lukas-h](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
+  - Badges
+- [npmjs.com](https://www.npmjs.com/package/inquirer)
+- Trilogy Education Services
+  - Starter code
+  - Support
+  - Educational material
 
 ## Questions
+
 For addtional questions contact me at:
 <valnimirenco@gmail.com>
-[My Repository](http://github.com/valian87)
+or [my repository](http://github.com/valiant87)
